@@ -83,3 +83,16 @@ ul{
     cursor: pointer;
 }
 
+.burger{
+    height: 30px;
+    width: 35px;
+    display: none;
+}
+
+.layer1, .layer2, .layer3{
+    background: black;
+    height: 5px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
