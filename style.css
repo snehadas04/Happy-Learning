@@ -16,3 +16,45 @@ a{
 ul{
     list-style: none;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: aqua;
+}
+
+.logo{
+    padding-left: 2em;
+}
+
+.logo-text{
+    font-size: 2em;
+}
+
+.menubar{
+    width: 45%;
+    margin-left: 8em;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item a{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+
+.list-item a:hover{
+    color: black;
+}
+
+.cart{
+    padding-right: 2em;
+    position: relative;
+}
